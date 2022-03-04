@@ -1,0 +1,539 @@
+{
+  "uid" : "3800405d7139bca6",
+  "name" : "Filter by time period, importance and currency",
+  "fullName" : "tests.FilterTests.testEventFiltering",
+  "historyId" : "eac77e0e5d0630e5974029419784368d",
+  "time" : {
+    "start" : 1646394130758,
+    "stop" : 1646394160187,
+    "duration" : 29429
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUserAgent",
+    "time" : {
+      "start" : 1646394130673,
+      "stop" : 1646394130675,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "openCalendar",
+    "time" : {
+      "start" : 1646394130763,
+      "stop" : 1646394142283,
+      "duration" : 11520
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select time period CURRENT_MONTH",
+      "time" : {
+        "start" : 1646394142678,
+        "stop" : 1646394142809,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "period",
+        "value" : "CURRENT_MONTH"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change all importance checkboxes except [MEDIUM]",
+      "time" : {
+        "start" : 1646394142810,
+        "stop" : 1646394145662,
+        "duration" : 2852
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394143030,
+          "stop" : 1646394144412,
+          "duration" : 1382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394144582,
+          "stop" : 1646394145097,
+          "duration" : 515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394145204,
+          "stop" : 1646394145662,
+          "duration" : 458
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "[MEDIUM]"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Change all curency checkboxes except [CHF]",
+      "time" : {
+        "start" : 1646394145662,
+        "stop" : 1646394152828,
+        "duration" : 7166
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394145771,
+          "stop" : 1646394146332,
+          "duration" : 561
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394146424,
+          "stop" : 1646394146883,
+          "duration" : 459
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394146973,
+          "stop" : 1646394147436,
+          "duration" : 463
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394147524,
+          "stop" : 1646394147977,
+          "duration" : 453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394148060,
+          "stop" : 1646394148406,
+          "duration" : 346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394148488,
+          "stop" : 1646394148817,
+          "duration" : 329
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394148940,
+          "stop" : 1646394149263,
+          "duration" : 323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394149351,
+          "stop" : 1646394149712,
+          "duration" : 361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394149832,
+          "stop" : 1646394150121,
+          "duration" : 289
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394150194,
+          "stop" : 1646394150452,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394150527,
+          "stop" : 1646394150791,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394150859,
+          "stop" : 1646394151129,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394151291,
+          "stop" : 1646394151587,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394151667,
+          "stop" : 1646394151912,
+          "duration" : 245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394151990,
+          "stop" : 1646394152238,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394152314,
+          "stop" : 1646394152536,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Wait table reloading",
+        "time" : {
+          "start" : 1646394152620,
+          "stop" : 1646394152828,
+          "duration" : 208
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "[CHF]"
+      } ],
+      "stepsCount" : 17,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Select first event with currency CHF",
+      "time" : {
+        "start" : 1646394152828,
+        "stop" : 1646394157311,
+        "duration" : 4483
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on the first row with currency CHF",
+        "time" : {
+          "start" : 1646394152828,
+          "stop" : 1646394157303,
+          "duration" : 4475
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "currency",
+          "value" : "CHF"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "currency",
+        "value" : "CHF"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Open history tab",
+      "time" : {
+        "start" : 1646394157540,
+        "stop" : 1646394160176,
+        "duration" : 2636
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get rows for 12 monthes",
+        "time" : {
+          "start" : 1646394157607,
+          "stop" : 1646394158024,
+          "duration" : 417
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "12"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Log rows [<div class=\"event-table-history__item\">1 Mar 2022\nFeb 2022\n62.6\n62.6\n63.8</div>, <div class=\"event-table-history__item\">1 Feb 2022\nJan 2022\n63.8\n58.7\n64.2</div>, <div class=\"event-table-history__item\">3 Jan 2022\nDec 2021\n62.7\n58.6\n62.5</div>, <div class=\"event-table-history__item\">1 Dec 2021\nNov 2021\n62.5\n64.1\n65.4</div>, <div class=\"event-table-history__item\">1 Nov 2021\nOct 2021\n65.4\n68.4\n68.1</div>, <div class=\"event-table-history__item\">1 Oct 2021\nSep 2021\n68.1\n70.5\n67.7</div>, <div class=\"event-table-history__item\">1 Sep 2021\nAug 2021\n67.7\n72.5\n71.1</div>, <div class=\"event-table-history__item\">2 Aug 2021\nJul 2021\n71.1\n68.1\n66.7</div>, <div class=\"event-table-history__item\">1 Jul 2021\nJun 2021\n66.7\n70.6\n69.9</div>, <div class=\"event-table-history__item\">1 Jun 2021\nMay 2021\n69.9\n68.0\n69.5</div>, <div class=\"event-table-history__item\">3 May 2021\nApr 2021\n69.5\n63.9\n66.3</div>, <div class=\"event-table-history__item\">1 Apr 2021\nMar 2021\n66.3\n60.4\n61.3</div>]",
+        "time" : {
+          "start" : 1646394158988,
+          "stop" : 1646394160176,
+          "duration" : 1188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "rows",
+          "value" : "[<div class=\"event-table-history__item\">1 Mar 2022\nFeb 2022\n62.6\n62.6\n63.8</div>, <div class=\"event-table-history__item\">1 Feb 2022\nJan 2022\n63.8\n58.7\n64.2</div>, <div class=\"event-table-history__item\">3 Jan 2022\nDec 2021\n62.7\n58.6\n62.5</div>, <div class=\"event-table-history__item\">1 Dec 2021\nNov 2021\n62.5\n64.1\n65.4</div>, <div class=\"event-table-history__item\">1 Nov 2021\nOct 2021\n65.4\n68.4\n68.1</div>, <div class=\"event-table-history__item\">1 Oct 2021\nSep 2021\n68.1\n70.5\n67.7</div>, <div class=\"event-table-history__item\">1 Sep 2021\nAug 2021\n67.7\n72.5\n71.1</div>, <div class=\"event-table-history__item\">2 Aug 2021\nJul 2021\n71.1\n68.1\n66.7</div>, <div class=\"event-table-history__item\">1 Jul 2021\nJun 2021\n66.7\n70.6\n69.9</div>, <div class=\"event-table-history__item\">1 Jun 2021\nMay 2021\n69.9\n68.0\n69.5</div>, <div class=\"event-table-history__item\">3 May 2021\nApr 2021\n69.5\n63.9\n66.3</div>, <div class=\"event-table-history__item\">1 Apr 2021\nMar 2021\n66.3\n60.4\n61.3</div>]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "vnvc.local"
+  }, {
+    "name" : "thread",
+    "value" : "31841@vnvc.local.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.FilterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.FilterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testEventFiltering"
+  }, {
+    "name" : "suite",
+    "value" : "Calendar filter tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3800405d7139bca6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "3800405d7139bca6",
+  "name" : "Filter by time period, importance and currency",
+  "time" : {
+    "start" : 1646394130758,
+    "stop" : 1646394160187,
+    "duration" : 29429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

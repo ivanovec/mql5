@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "vnvc.local",
+    "children" : [ {
+      "name" : "31841@vnvc.local.Test worker(11)",
+      "children" : [ {
+        "name" : "Filter by time period, importance and currency",
+        "uid" : "3800405d7139bca6",
+        "parentUid" : "2423748988d49e17202aa771beb800a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646394130758,
+          "stop" : 1646394160187,
+          "duration" : 29429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2423748988d49e17202aa771beb800a2"
+    } ],
+    "uid" : "6b78bb80d7386860a9766150d6ff1c12"
+  } ],
+  "name" : "timeline"
+}
